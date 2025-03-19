@@ -1,0 +1,20 @@
+.NewColorButton{
+    padding: 25px 50px;
+    border-radius: 50px;
+    border:none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.25s;
+    &:hover{
+        background-color: #555;
+    }
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
